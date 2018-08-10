@@ -1,1 +1,1 @@
-# dkndevelopers2.github.io
+THIS WEBSITE IS OF A STUDENT
