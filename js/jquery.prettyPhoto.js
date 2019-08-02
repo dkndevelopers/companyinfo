@@ -1,8 +1,5 @@
 /* ------------------------------------------------------------------------
-	Class: prettyPhoto
-	Use: Lightbox clone for jQuery
-	Author: Stephane Caron (http://www.no-margin-for-errors.com)
-	Version: 3.1.5
+
 ------------------------------------------------------------------------- */
 (function($) {
 	$.prettyPhoto = {version: '3.1.5'};
