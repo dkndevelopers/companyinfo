@@ -34,10 +34,7 @@
 }
 
 /* ------------------------------------------------------------------
-/* c. Reset
-      Adapted from:
-      Normalize.css - https://github.com/necolas/normalize.css/
-      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+/* 
 /* ------------------------------------------------------------------ */
 
 html, body, div, span, object, iframe,
@@ -123,10 +120,7 @@ table {
 
 
 /* ------------------------------------------------------------------ */
-/* d. Default and Basic Styles
-      Adapted from:
-      Skeleton CSS Framework - http://www.getskeleton.com/
-      Typeplate Typographic Starter Kit - http://typeplate.com/
+/* 
 /* ------------------------------------------------------------------ */
 
 /* 1. Basic  ------------------------------------------------------- */
@@ -153,8 +147,7 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
-/* 2. Typography
-      Vertical rhythm with leading derived from 6
+
 --------------------------------------------------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
@@ -178,8 +171,7 @@ p.lead {
    margin-bottom: 18px;
 }
 
-/* for 'em' and 'strong' tags, font-size and line-height should be same with
-the body tag due to rendering problems in some browsers */
+/* */
 em { font: 15px/30px 'opensans-italic', sans-serif; }
 strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
@@ -220,13 +212,7 @@ blockquote cite a,
 blockquote cite a:visited { color: #8B9798; border: none }
 
 /* ---------------------------------------------------------------------
-/*  Pull Quotes Markup
-/*
-    <aside class="pull-quote">
-		<blockquote>
-			<p></p>
-		</blockquote>
-	 </aside>
+/* 
 /*
 /* --------------------------------------------------------------------- */
 .pull-quote {
@@ -318,14 +304,7 @@ ul.large li { }
 li p { }
 
 /* ---------------------------------------------------------------------
-/*  Stats Tab Markup
-
-    <ul class="stats-tabs">
-		<li><a href="#">[value]<b>[name]</b></a></li>
-	 </ul>
-
-    Extend this object into your markup.
-/*
+/
 /* --------------------------------------------------------------------- */
 .stats-tabs {
    padding: 0;
@@ -517,7 +496,7 @@ input[type="button"].full-width {
 	text-align: center;
 }
 
-/* Fix for odd Mozilla border & padding issues */
+
 button::-moz-focus-inner,
 input::-moz-focus-inner {
     border: 0;
@@ -693,9 +672,7 @@ input[type="checkbox"] { display: inline; }
 
 [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
 
-/* Left clearing for block grid columns - columns that changes width in
-different screen sizes. Allows columns with different heights to align
-properly.
+/*
 --------------------------------------------------------------------- */
 .first { clear: left; }   /* first column in default screen */
 .s-first { clear: none; } /* first column in smaller screens */
@@ -771,8 +748,7 @@ properly.
 /* e. Others
 /* ------------------------------------------------------------------ */
 
-/*  1. Clearing
-    (http://nicolasgallagher.com/micro-clearfix-hack/
+
 --------------------------------------------------------------------- */
 
 .cf:before,
