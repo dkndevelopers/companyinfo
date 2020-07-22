@@ -506,7 +506,10 @@ input::-moz-focus-inner {
 
 /* 7. Forms  --------------------------------------------------------- */
 
-form { margin-bottom: 24px; }
+form {
+	margin-bottom: 24px; 
+	margin-top: 50px; 
+}
 fieldset { margin-bottom: 24px; }
 
 input[type="text"],
